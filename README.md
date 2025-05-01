@@ -44,5 +44,6 @@ This code uses:
 - `numpy`, `scipy`, `pandas`, `matplotlib`, `scikit-image`
 
 Install dependencies via:
-```bash pip install numpy scipy pandas matplotlib scikit-image
+```bash
+pip install numpy scipy pandas matplotlib scikit-image
 
