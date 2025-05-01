@@ -18,16 +18,6 @@ This repository contains analysis code for quantifying spatial molecule enrichme
 - Publication-ready boxplots and scatterplots
 - Analysis and visualisation of pole cell induction and specification defects
 
-## Requirements
-
-This code uses:
-- Python 3.8+
-- `numpy`, `scipy`, `pandas`, `matplotlib`, `scikit-image`
-
-Install dependencies via:
-```bash
-pip install numpy scipy pandas matplotlib scikit-image
-
 ## Running the Code
 Prepare your data in Masks/ and Rotated/ subdirectories for each experiment.
 Edit the script to point to the correct sample_dir and set the relevant channel, tissue, and figure parameters.
@@ -46,3 +36,13 @@ This repository is shared for academic use. Please cite appropriately if used in
 For questions or collaboration, please contact:
 Anastasia Repouliou (author) or
 Cassandra G. Extavour (lead manuscript contact)
+
+## Requirements
+
+This code uses:
+- Python 3.8+
+- `numpy`, `scipy`, `pandas`, `matplotlib`, `scikit-image`
+
+Install dependencies via:
+```bash pip install numpy scipy pandas matplotlib scikit-image
+
